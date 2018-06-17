@@ -12,7 +12,28 @@ namespace oop_demo
         public int ID { get; set; }
         public string Name { get; set; }
         public string City { get; set; }
-        public decimal Salary { get; set; }
+        //1
+        private decimal _salary;
+        //2
+        public decimal Salary 
+        {
+            //3
+            get { return _salary; }
+            //4
+            set
+            {
+                if(value>=700)
+                {
+                     _salary=value;
+                 }
+                else
+                {
+                    throw new Exception("Salary must be at least 700& !");
+                }
+            }
+
+
+        }
         //methods
         public String Report()
         {

@@ -31,5 +31,20 @@ namespace oop_demo
             };
             MessageBox.Show(m.Reportmanagr()); 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int slry = int.Parse(textBox1.Text);
+            Managr m = new Managr()
+            {
+                ID = 1,
+                Name = "Ahmed",
+                City = "cairo",
+                Salary = slry,
+                bones = 10
+            };
+                        MessageBox.Show(m.Reportmanagr()); 
+
+        }
     }
 }
