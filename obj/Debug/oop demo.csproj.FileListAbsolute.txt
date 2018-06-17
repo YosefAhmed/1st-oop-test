@@ -1,0 +1,9 @@
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\bin\Debug\oop demo.exe.config
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\bin\Debug\oop demo.exe
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\bin\Debug\oop demo.pdb
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\obj\Debug\oop demo.csprojResolveAssemblyReference.cache
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\obj\Debug\oop_demo.Form1.resources
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\obj\Debug\oop_demo.Properties.Resources.resources
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\obj\Debug\oop demo.csproj.GenerateResource.Cache
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\obj\Debug\oop demo.exe
+D:\programming\visual studio\GUI\C#\oop demo\oop demo\obj\Debug\oop demo.pdb
