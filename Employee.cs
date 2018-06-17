@@ -16,8 +16,19 @@ namespace oop_demo
         //methods
         public String Report()
         {
-            return "ID :" + ID + "\nName :" + Name + "\nCity :" + City + "\nSalary :" + Salary;
+            return "ID :" + ID + "\nName :" + Name +
+                "\nCity :" + City + "\nSalary :" + Salary;
         }
-        //events
+        
+        
+        }
+    class Managr : Employee
+        {
+            public int bones { get; set; }
+            public String Reportmanagr()
+        {
+            return  base.Report()+"\nbones :"+bones;
+        }
+        }
     }
-}
+

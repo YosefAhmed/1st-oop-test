@@ -20,13 +20,16 @@ namespace oop_demo
         private void button1_Click(object sender, EventArgs e)
         {
             //classname opjectname = new classname();
-            Employee emp = new Employee();
-            emp.ID = 1;
-            emp.Name = "Yousef";
-            emp.City = "Cairo";
-            emp.Salary = 1200;
-            var rprt=emp.Report();
-            MessageBox.Show(rprt); 
+
+            Managr m = new Managr()
+            {
+                ID = 1,
+                Name = "Ahmed",
+                City = "cairo",
+                Salary = 1200,
+                bones = 10
+            };
+            MessageBox.Show(m.Reportmanagr()); 
         }
     }
 }
