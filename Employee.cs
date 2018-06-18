@@ -12,6 +12,7 @@ namespace oop_demo
         public int ID { get; set; }
         public string Name { get; set; }
         public string City { get; set; }
+        //Encapsulation 
         //1
         private decimal _salary;
         //2
@@ -43,9 +44,9 @@ namespace oop_demo
         
         
         }
-    class Managr : Employee
+    class Managr : Employee  //Inheritance 
         {
-            public int bones { get; set; }
+            public static int bones { get; set; }  //static field
             public String Reportmanagr()
         {
             return  base.Report()+"\nbones :"+bones;
